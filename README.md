@@ -12,7 +12,7 @@ Then you see a new device named "RPI-RP2" as shown in below fig.
 <img src= "https://github.com/sbcshop/HackyPi-Software/blob/main/images/HackyPi_bootloader_install.gif" />
 
 Download the MicroPython firmware file provided in this repo above as ["firmware.uf2"](https://github.com/sbcshop/HackyPi-Software/blob/main/firmware.uf2)
-Or to download latest firmware file from official site [visit here](https://circuitpython.org/board/raspberry_pi_pico/](https://micropython.org/download/rp2-pico/)     
+Or to download latest firmware file from official site [visit here](https://micropython.org/download/rp2-pico-w/)     
      
 Now at this step bootloader installed properly inside PiCoder. To verify remove device and re-insert into PC/Laptop, no need to press boot button. 
 This time you will see a new device as shown in the below image:-
