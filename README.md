@@ -1,1 +1,2 @@
-# PiCoder-Software
+# PiCoder
+Pico Learning Kit for Makers
