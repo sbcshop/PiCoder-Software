@@ -2,36 +2,35 @@
 100% DIY | 100% Programmable| LED | RPi Pico | LED Matrix | LDR | 3.2" Touch LCD | BME280 | Ultrasonic Sensor | RFID | Dual USB | POT
 
 A compact and comprehensive Raspberry Pi Pico W based Learning Kit having onboard actuators, sensors, and LEDs makes learning enjoyable.
-## Getting Started with PiCoder
 
-## Setup HackyPi
-1. Download and Install Thonny IDE for your respective OS from Link [Download Thonny](https://thonny.org/)
-   
-   <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img.JPG" />
-   
-2. Adding **MicroPython** firmware in PiCoder
+## Getting Started with PiCoder  
+### 1. How to configure PiCoder
 
-     For this first you need to *Press and Hold* the boot button on PiCoder, without releasing the button connect it to USB port of PC/laptop. 
+Mostly Picoder will be shipped by installing firmware so you can skip this step if firmware already installed, and directly jump start for programming by following below steps 2
+To add **MicroPython** firmware in PiCoder, For this first you need to *Press and Hold* the boot button on PiCoder, without releasing the button connect it to USB port of PC/laptop. 
 Then you see a new device named "RPI-RP2" as shown in below fig.
 <img src= "https://github.com/sbcshop/HackyPi-Software/blob/main/images/HackyPi_bootloader_install.gif" />
 
 Download the MicroPython firmware file provided in this repo above as ["firmware.uf2"](https://github.com/sbcshop/HackyPi-Software/blob/main/firmware.uf2)
-Or to download latest firmware file from official site ["visit here"](https://circuitpython.org/board/raspberry_pi_pico/](https://micropython.org/download/rp2-pico/)     
+Or to download latest firmware file from official site [visit here](https://circuitpython.org/board/raspberry_pi_pico/](https://micropython.org/download/rp2-pico/)     
      
 Now at this step bootloader installed properly inside PiCoder. To verify remove device and re-insert into PC/Laptop, no need to press boot button. 
 This time you will see a new device as shown in the below image:-
      <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img11.png" />
-Mostly Picode will be shipped by installing firmware so you can skip above step if already installed, and directly jump start for programming by following below steps
-**Running First Code in HackyPi**
-1. Start Thonny IDE application, after this go to run->select interpreter, choose device and suitable com port
+
+
+### 2. Running First Code in PiCoder
+Download **Thonny IDE** from link as per your OS and installed.
+
+Once done start **Thonny IDE application**, after this go to run->select interpreter, choose device and suitable com port
     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img18.png" />
     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img19.png" />
-    Write simple python code and click on green run button
+    
+Write simple python code and click on green run button
     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img20.png" />
     <img src= "https://github.com/sbcshop/HackyPi-Software/blob/main/images/sample_hello_program.png" />
 
-2. Now you are ready to try out your own codes. Even you can try some of below Example codes provided, for that just copy all the files (library files) from [```lib```](https://github.com/sbcshop/HackyPi-Software/tree/main/lib) folder of this repository and paste inside the HackyPi ```lib``` folder
-
+<b>Now you are ready to try out your own codes </b>
 
 ## Documentation
 
