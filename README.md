@@ -9,19 +9,19 @@ A compact and comprehensive Raspberry Pi Pico W based Learning Kit having onboar
 - Mostly, Picoder will be shipped with firmware pre-installed, so you can skip this step if firmware is already present and directly jump start programming by following the below Step 2.
 - How to know whether firmware is already present in your PiCoder: for this, just connect your PiCoder to your laptop, and if no extra device is detected, that means your PiCoder has it.
 - And if you connect the PiCoder to a laptop without pressing the boot button, if it shows a folder named "RPI-RP2" like the one below, then the firmware is not installed.
-  <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" />
+  
+   <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>
 
 - In this case, you need to add **MicroPython firmware** in PiCoder. First,  you need to *Press and Hold* the boot button on PiCoder, and then, without releasing the button, connect it to the USB port of your PC/laptop. 
-  <img src= "https://github.com/sbcshop/HackyPi-Software/blob/main/images/HackyPi_bootloader_install.gif" />
+  <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_boot_mode.gif" />
 
 - Now your device is in boot mode, and you will see a new device named "RPI-RP2" as shown in the below figure.
-  <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" />
+  <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>
 
 - Download the MicroPython firmware file provided in this repo above as ["firmware.uf2"](https://github.com/sbcshop/HackyPi-Software/blob/main/firmware.uf2)
 or to download the latest firmware file from the official site, [visit here](https://micropython.org/download/rp2-pico-w/)     
      
 - Just copy and paste the firmware into the RPI-RP2 folder, and now the bootloader is properly installed inside the PiCoder. To verify remove device and re-insert into PC/Laptop, no need to press boot button. This time you will see a new device as RPI-RP2.
-  <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img11.png" />
 
 
 ### 2. Running First Program in PiCoder
