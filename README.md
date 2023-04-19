@@ -3,6 +3,11 @@
 
 A compact and comprehensive Raspberry Pi Pico W based Learning Kit having onboard actuators, sensors, and LEDs makes learning enjoyable.
 
+
+<img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_kits.png"/>
+
+The PiCoder is loaded with many features that are going to help you learn and explore many opportunities in the field of computer science and electronics.
+
 ## Getting Started with PiCoder  
 ### 1. How to install boot Firmware in PiCoder
 
