@@ -8,7 +8,9 @@ A compact and comprehensive Raspberry Pi Pico W based Learning Kit having onboar
 
 Mostly Picoder will be shipped by installing firmware so you can skip this step if firmware already installed, and directly jump start for programming by following below steps 2
 To add **MicroPython** firmware in PiCoder, For this first you need to *Press and Hold* the boot button on PiCoder, without releasing the button connect it to USB port of PC/laptop. 
-Then you see a new device named "RPI-RP2" as shown in below fig.
+<img src= "https://github.com/sbcshop/HackyPi-Software/blob/main/images/HackyPi_bootloader_install.gif" />
+
+Then you will see a new device named "RPI-RP2" as shown in below fig.
 <img src= "https://github.com/sbcshop/HackyPi-Software/blob/main/images/HackyPi_bootloader_install.gif" />
 
 Download the MicroPython firmware file provided in this repo above as ["firmware.uf2"](https://github.com/sbcshop/HackyPi-Software/blob/main/firmware.uf2)
