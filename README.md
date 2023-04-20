@@ -36,15 +36,15 @@ or to download the latest firmware file from the official site, [visit here](htt
   - Connect PiCoder kit with laptop/PC using micro usb cable
   
   - After this go to Run -> Configure interpreter, choose device and suitable com port as shown in below images
-    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img1.png" />
-    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img2.png" />
-    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img3.png" />
+    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img1.jpg" />
+    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img2.jpg" />
+    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img3.jpg" />
     
    - There is other option to select device at bottom right side as shown in below figure
-     <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img4.png" />
+     <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img4.jpg" />
    
    - Write simple python code and click on green run button to make your script running on PiCoder
-     <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img5.png" />
+     <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img5.jpg" />
     
 
 Now you are ready to try out your own codes, **_Happy Coding!_**
