@@ -23,7 +23,7 @@ The PiCoder is loaded with many features that are going to help you learn and ex
 - Now your device is in boot mode, and you will see a new device named "RPI-RP2" as shown in the below figure.
   <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>
 
-- Download the MicroPython firmware file provided in this repo above as ["firmware.uf2"](https://github.com/sbcshop/HackyPi-Software/blob/main/firmware.uf2)
+- Download the MicroPython firmware file provided in this repo above as ["firmware.uf2"](https://github.com/sbcshop/PiCoder-Software/blob/main/firmware.uf2)
 or to download the latest firmware file from the official site, [visit here](https://micropython.org/download/rp2-pico-w/)     
      
 - Just copy and paste the firmware into the RPI-RP2 folder, and now the bootloader is properly installed inside the PiCoder. To verify remove device and re-insert into PC/Laptop, no need to press boot button. This time you will see a new device as RPI-RP2.
