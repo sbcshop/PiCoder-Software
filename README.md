@@ -69,9 +69,14 @@ Now you are ready to try out your own codes, **_Happy Coding!_**
  
  * [Motor Driver HAT](https://shop.sb-components.co.uk/products/pico-motor-driver?_pos=4&_sid=82fa60545&_ss=r) - Compatible 2 Channel Motor Driver HAT for PiCoder
  
- ![Barcode_Reader_HAT](https://cdn.shopify.com/s/files/1/1217/2104/products/01.png?v=1669181209&width=200)
+ ![Barcode_Reader_HAT](https://cdn.shopify.com/s/files/1/1217/2104/products/04.png?v=1669181209&width=200)
  
  * [Barcode Reader](https://shop.sb-components.co.uk/products/barcode-hat?_pos=5&_sid=82fa60545&_ss=r) - Compatible Barcode Reader HAT for PiCoder
+ 
+ ![Ethernet_HAT](https://cdn.shopify.com/s/files/1/1217/2104/products/NetPi_4.png?v=1675947155&width=200)
+ 
+ * [Ethernet HAT](https://shop.sb-components.co.uk/products/netpi-ethernet-hat-for-raspberry-pi-pico?_pos=2&_sid=82fa60545&_ss=r) - Compatible Ethernet HAT for PiCoder
+
 
 ## Product License
 
