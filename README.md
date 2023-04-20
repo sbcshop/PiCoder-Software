@@ -1,4 +1,4 @@
-# PiCoder
+# PiCoder - Pico Learning Kit
 100% DIY | 100% Programmable| LED | RPi Pico | LED Matrix | LDR | 3.2" Touch LCD | BME280 | Ultrasonic Sensor | RFID | Dual USB | POT
 
 A compact and comprehensive Raspberry Pi Pico W based Learning Kit having onboard actuators, sensors, and LEDs makes learning enjoyable.
@@ -9,7 +9,7 @@ A compact and comprehensive Raspberry Pi Pico W based Learning Kit having onboar
 The PiCoder is loaded with many features that are going to help you learn and explore many opportunities in the field of computer science and electronics.
 
 ## Getting Started with PiCoder  
-### 1. How to install boot Firmware in PiCoder
+### 1. How to install boot Firmware in PiCoder kit
 
 - Mostly, Picoder will be shipped with firmware pre-installed, so you can skip this step if firmware is already present and directly jump start programming by following the below Step 2.
 - How to know whether firmware is already present in your PiCoder: for this, just connect your PiCoder to your laptop, and if no extra device is detected, that means your PiCoder has it.
@@ -32,22 +32,28 @@ or to download the latest firmware file from the official site, [visit here](htt
 ### 2. Running First Program in PiCoder
 - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and installed.
 
-- Once done start **Thonny IDE application**, after this go to run->select interpreter, choose device and suitable com port
-    <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img18.png" />
-    <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img19.png" />
+- Once done start **Thonny IDE application**,
+  - connect PiCoder kit with laptop/PC using micro usb cable
+  
+  - after this go to run->select interpreter, choose device and suitable com port as shown in below images
+    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/screen3.png" />
+    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/screen4.png" />
+    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/screen5.png" />
     
-- Write simple python code and click on green run button
-    <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img20.png" />
-    <img src= "https://github.com/sbcshop/HackyPi-Software/blob/main/images/sample_hello_program.png" />
+   - There is other option to select device botton right side as shown in below figure
+     <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/screen1.png" />
+   
+   - Write simple python code and click on green run button
+     <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/screen6.png" />
+    
 
 Now you are ready to try out your own codes, **Happy Coding!**
 
-## Documentation
+## Related Projects
 
-* [PiCoder Hardware]() 
-* [PiCoder Schematic]() 
-* [MicroPython getting started for RPI](https://docs.micropython.org/en/latest/rp2/quickref.html)
-* [RP2040 Datasheet](https://github.com/sbcshop/HackyPi-Hardware/blob/main/Documents/rp2040-datasheet.pdf)
+## Documentation
+  * [MicroPython getting started for RPI](https://docs.micropython.org/en/latest/rp2/quickref.html)
+  * [RP2040 Datasheet](https://github.com/sbcshop/HackyPi-Hardware/blob/main/Documents/rp2040-datasheet.pdf)
 
 
 ## Related HAT Products
