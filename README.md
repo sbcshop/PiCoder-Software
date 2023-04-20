@@ -33,21 +33,21 @@ or to download the latest firmware file from the official site, [visit here](htt
 - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and installed.
 
 - Once done start **Thonny IDE application**,
-  - connect PiCoder kit with laptop/PC using micro usb cable
+  - Connect PiCoder kit with laptop/PC using micro usb cable
   
-  - after this go to run->select interpreter, choose device and suitable com port as shown in below images
+  - After this go to Run -> Configure interpreter, choose device and suitable com port as shown in below images
     <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/screen3.png" />
     <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/screen4.png" />
     <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/screen5.png" />
     
-   - There is other option to select device botton right side as shown in below figure
+   - There is other option to select device at bottom right side as shown in below figure
      <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/screen1.png" />
    
-   - Write simple python code and click on green run button
+   - Write simple python code and click on green run button to make your script running on PiCoder
      <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/screen6.png" />
     
 
-Now you are ready to try out your own codes, **Happy Coding!**
+Now you are ready to try out your own codes, **_Happy Coding!_**
 
 ## Related Projects
 
