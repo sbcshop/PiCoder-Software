@@ -9,7 +9,7 @@ A compact and comprehensive Raspberry Pi Pico W based Learning Kit having onboar
 The PiCoder is loaded with many features that are going to help you learn and explore many opportunities in the field of computer science and electronics.
 
 ## Getting Started with PiCoder  
-### 1. How to install boot Firmware in PiCoder kit
+### 1. How to install boot Firmware in Pico W of PiCoder kit
 
 - Mostly, Picoder will be shipped with firmware pre-installed, so you can skip this step if firmware is already present and directly jump start programming by following the below Step 2.
 - How to know whether firmware is already present in your PiCoder: for this, just connect your PiCoder to your laptop, and if no extra device is detected, that means your PiCoder has it.
