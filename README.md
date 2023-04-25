@@ -18,6 +18,7 @@ The PiCoder is loaded with many features that are going to help you learn and ex
    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>
 
 - In this case, you need to add **MicroPython firmware** in PiCoder. First,  you need to *Press and Hold* the boot button on PiCoder, and then, without releasing the button, connect it to the USB port of your PC/laptop. 
+  
   <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_boot_mode.gif" />
 
 - Now your device is in boot mode, and you will see a new device named "RPI-RP2" as shown in the below figure.
