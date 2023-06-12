@@ -50,7 +50,6 @@ or to download the latest firmware file from the official site, [visit here](htt
 
 Now you are ready to try out your own codes, **_Happy Coding!_**
 
-## Related Projects
 
 ## Documentation
   * [MicroPython getting started for RPI](https://docs.micropython.org/en/latest/rp2/quickref.html)
