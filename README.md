@@ -19,7 +19,7 @@ The PiCoder is loaded with many features that are going to help you learn and ex
 
 - In this case, you need to add **MicroPython firmware** in PiCoder. First, you need to *Press and Hold* the boot button on pico W of PiCoder, and then, without releasing the button, connect it to PC/laptop using micro USB cable. Check below image for reference,
   
-  <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_boot_mode.gif" />
+  <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif">
 
 - Now your device is in boot mode, and you will see a new mass storage device named "RPI-RP2" as shown in the below figure.
   <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>
@@ -31,28 +31,20 @@ or to download the latest firmware file from the official site, [visit here](htt
 
 
 ### 2. Running First Program in PiCoder
-- Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and installed.
+- Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS of PC/laptop and install into your system.
 
-- Once done start **Thonny IDE application**,
-  - Connect PiCoder kit with laptop/PC using micro usb cable
+- Once done start **Thonny IDE application**, connect PiCoder kit with laptop/PC using micro usb cable
   
-  - After this go to Run -> Configure interpreter, choose device and suitable com port as shown in below images
-    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img1.jpg" />
-    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img2.jpg" />
-    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img3.jpg" />
-    
-   - There is other option to select device at bottom right side as shown in below figure
-     <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img4.jpg" />
-   
-   - Write simple python code and click on green run button to make your script running on PiCoder
-     <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/img5.jpg" />
     
 
-Now you are ready to try out your own codes, **_Happy Coding!_**
+Now you are ready to try out your own codes and build awesome projects with PiCoder, **_Happy Learning!_**
 
-
-## Documentation
-  * [MicroPython getting started for RPI](https://docs.micropython.org/en/latest/rp2/quickref.html)
+## Resources
+  * [Schematic]()
+  * [Hardware Files]()
+  * [Step File]()
+  * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
+  * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
   * [RP2040 Datasheet](https://github.com/sbcshop/HackyPi-Hardware/blob/main/Documents/rp2040-datasheet.pdf)
 
 
