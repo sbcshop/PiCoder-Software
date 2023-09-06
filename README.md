@@ -40,9 +40,9 @@ or to download the latest firmware file from the official site, [visit here](htt
 Now you are ready to try out your own codes and build awesome projects with PiCoder, **_Happy Learning!_**
 
 ## Resources
-  * [Schematic]()
-  * [Hardware Files]()
-  * [Step File]()
+  * [Schematic](https://github.com/sbcshop/PiCoder-Hardware/blob/main/Design%20Data/Sch%20PiCoder.pdf)
+  * [Hardware Files](https://github.com/sbcshop/PiCoder-Hardware)
+  * [Step File](https://github.com/sbcshop/PiCoder-Hardware/blob/main/Mechanical%20Data/PiCoder%20step.zip)
   * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
   * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
   * [RP2040 Datasheet](https://github.com/sbcshop/HackyPi-Hardware/blob/main/Documents/rp2040-datasheet.pdf)
@@ -61,7 +61,7 @@ Now you are ready to try out your own codes and build awesome projects with PiCo
  
  * [Motor Driver HAT](https://shop.sb-components.co.uk/products/pico-motor-driver?_pos=4&_sid=82fa60545&_ss=r) - Compatible 2 Channel Motor Driver HAT for PiCoder
  
- ![Ethernet_HAT](https://cdn.shopify.com/s/files/1/1217/2104/products/NetPi_4.png?v=1675947155&width=200)
+ ![Ethernet_HAT](https://shop.sb-components.co.uk/cdn/shop/files/03_439625d0-e0d2-4555-b3b3-5d8fa316d7d8.jpg?v=1683535354&width=200)
  
  * [Ethernet HAT](https://shop.sb-components.co.uk/products/netpi-ethernet-hat-for-raspberry-pi-pico?_pos=2&_sid=82fa60545&_ss=r) - Compatible Ethernet HAT for PiCoder
 
