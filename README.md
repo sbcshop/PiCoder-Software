@@ -11,23 +11,23 @@ The PiCoder is loaded with many features that are going to help you learn and ex
 ## Getting Started with PiCoder  
 ### 1. How to install boot Firmware in Pico W of PiCoder kit
 
-- Mostly, Picoder will be shipped with firmware pre-installed, so you can skip this step if firmware is already present and directly jump start programming by following the below Step 2.
+- Mostly, Picoder will be provided with firmware pre-installed, so you can skip this step if firmware is already present and directly jump start programming by following the below Step 2.
 - How to know whether firmware is already present in your PiCoder: for this, just connect your PiCoder to your laptop, and if no extra device is detected, that means your PiCoder has it.
-- And if you connect the PiCoder to a laptop without pressing the boot button, if it shows a folder named "RPI-RP2" like the one below, then the firmware is not installed.
+- And if you connect the PiCoder to a laptop without pressing the boot button, if it shows mass storage device named as "RPI-RP2" like the one below, then the firmware is not installed.
   
    <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>
 
-- In this case, you need to add **MicroPython firmware** in PiCoder. First,  you need to *Press and Hold* the boot button on PiCoder, and then, without releasing the button, connect it to the USB port of your PC/laptop. 
+- In this case, you need to add **MicroPython firmware** in PiCoder. First, you need to *Press and Hold* the boot button on pico W of PiCoder, and then, without releasing the button, connect it to PC/laptop using micro USB cable. Check below image for reference,
   
   <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_boot_mode.gif" />
 
-- Now your device is in boot mode, and you will see a new device named "RPI-RP2" as shown in the below figure.
+- Now your device is in boot mode, and you will see a new mass storage device named "RPI-RP2" as shown in the below figure.
   <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>
 
-- Download the MicroPython firmware file provided in this repo above as ["firmware.uf2"](https://github.com/sbcshop/PiCoder-Software/blob/main/firmware.uf2)
+- Download the MicroPython firmware file provided in this repo above as ["PiCoder_firmware.uf2"]()
 or to download the latest firmware file from the official site, [visit here](https://micropython.org/download/rp2-pico-w/)     
      
-- Just copy and paste the firmware into the RPI-RP2 folder, and now the bootloader is properly installed inside the PiCoder. To verify remove device and re-insert into PC/Laptop, no need to press boot button. This time you will see a new device as RPI-RP2.
+- Drag and drop the MicroPython UF2 - ["PiCoder_firmware.uf2"]() file provided in this github onto the RPI-RP2 volume. Your Pico W will reboot. You are now running MicroPython on PiCoder.
 
 
 ### 2. Running First Program in PiCoder
