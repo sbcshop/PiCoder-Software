@@ -24,10 +24,10 @@ The PiCoder is loaded with many features that are going to help you learn and ex
 - Now your device is in boot mode, and you will see a new mass storage device named "RPI-RP2" as shown in the below figure.
   <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>
 
-- Download the MicroPython firmware file provided in this repo above as ["PiCoder_firmware.uf2"]()
+- Download the MicroPython firmware file provided in this repo above as ["PiCoder_firmware.uf2"](https://github.com/sbcshop/PiCoder-Software/blob/main/PiCoder_firmware.uf2)
 or to download the latest firmware file from the official site, [visit here](https://micropython.org/download/rp2-pico-w/)     
      
-- Drag and drop the MicroPython UF2 - ["PiCoder_firmware.uf2"]() file provided in this github onto the RPI-RP2 volume. Your Pico W will reboot. You are now running MicroPython on PiCoder.
+- Drag and drop the MicroPython UF2 - ["PiCoder_firmware.uf2"](https://github.com/sbcshop/PiCoder-Software/blob/main/PiCoder_firmware.uf2) file provided in this github onto the RPI-RP2 volume. Your Pico W will reboot. You are now running MicroPython on PiCoder.
 
 
 ### 2. Running First Program in PiCoder
