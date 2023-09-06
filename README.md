@@ -44,7 +44,8 @@ Now you are ready to try out your own codes and build awesome projects with PiCo
   * [Hardware Files](https://github.com/sbcshop/PiCoder-Hardware)
   * [Step File](https://github.com/sbcshop/PiCoder-Hardware/blob/main/Mechanical%20Data/PiCoder%20step.zip)
   * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
-  * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
+  * [Getting Started with Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
+  * [Getting Started with Pico W](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
   * [RP2040 Datasheet](https://github.com/sbcshop/HackyPi-Hardware/blob/main/Documents/rp2040-datasheet.pdf)
 
 
