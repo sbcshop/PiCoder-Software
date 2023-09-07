@@ -6,7 +6,7 @@ Each onboard component is represented by the following essential Class in the mo
 
 
 ### (1) LED
-LED class is used to control onboard two LEDs. You will have to pass parameters as a choice of LED 1 or 2. Else you can pass GPIO number Pico W to which external LEDs are connected on the breadboard.
+LED class is used to control onboard two LEDs. You will have to pass parameters as a choice of LED 1 or 2. Else you can pass GPIO number of Pico W to which external LEDs are connected on the breadboard.
  
 **Methods:**
 * _on_ :  this method is used to turn on LED
@@ -55,4 +55,21 @@ buz.stop()	     # to turn off buzzer
 
 [Buzzer Tone Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_BuzzerTone.py): this example shows how to create tone with buzzer.
 
-(4) 
+### (4) RELAY
+RELAY class is used to control onboard two RELAY . You will have to pass parameters as a choice of RELAY 1 or 2. 
+Alternatively, you can pass the GPIO number of Pico W to which external Relays are connected on the breadboard.
+ 
+**Methods:**
+* _on_ :  this method is used to turn on RELAY
+* _off_ :  this method is used to turn off RELAY
+
+Use case:
+```
+ # interested to work with RELAY2
+relay = RELAY(2)   # create class instance, by passing RELAY number
+relay.on() 	       # call function to turn on RELAY 2 of PiCoder
+```
+
+[Demo Relay Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Relay.py) : this example on Github turns the relay on and off in a fixed interval of time.
+
+
