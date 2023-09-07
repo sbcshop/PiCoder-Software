@@ -1,6 +1,6 @@
 ## [PiCoder Library](https://github.com/sbcshop/PiCoder-Software/blob/main/picoder.py) : 
 
-This [picoder.py](https://github.com/sbcshop/PiCoder-Software/blob/main/picoder.py) module is designed to make it simple to work with the various PiCoder onboard components. As a result, creating cool projects with the PiCoder kit takes less time because no specialised interface coding is required. This will help you to get start quickly.
+The [picoder.py](https://github.com/sbcshop/PiCoder-Software/blob/main/picoder.py) module is designed to make it simple to work with the various PiCoder onboard components. As a result, creating cool projects with the PiCoder kit takes less time because no specialised interface coding is required. This will help you to get start quickly.
 
 Each onboard component is represented by the following essential Class in the module. There are also several supporting classes included in the module.
 
