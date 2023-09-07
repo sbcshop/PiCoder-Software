@@ -8,6 +8,11 @@ A compact and comprehensive Raspberry Pi Pico W based Learning Kit having onboar
 
 The PiCoder is loaded with many features that are going to help you learn and explore many opportunities in the field of computer science and electronics.
 
+PiCoder is an all-in-one STEM learning kit that allows students to work directly with the most common hardware components used in DIY projects. 
+Features the most well-known Raspberry Pi Pico, which enjoys strong community support.The most popular programming languages, Micropython, Ciruitpython, and Arduino, are supported across platforms.
+
+Because the lesson for the PiCoder kit is mostly based on Micropython, it is advised that you understand the very fundamentals of Python.
+
 ## Getting Started with PiCoder  
 ### 1. How to install boot Firmware in Pico W of PiCoder kit
 
