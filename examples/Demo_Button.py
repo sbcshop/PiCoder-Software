@@ -14,7 +14,7 @@ while True:
     # Print the state of BT1 to the console
     print(f"BT1 = {val1}")
     
-    sleep(0.2) #wait for 2 seconds
+    sleep(0.2) #wait for 0.2 seconds
     
     
 
