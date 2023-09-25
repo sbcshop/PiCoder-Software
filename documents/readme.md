@@ -87,5 +87,6 @@ value = button1.read()   # call function to read button state and store in varia
 
 ```
 [Demo Button Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button.py) : checkout demo code how to use the button.
+
 [Combine Testing](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button_Combine.py) : this example demonstrates use of buttons along with other components. 
 
