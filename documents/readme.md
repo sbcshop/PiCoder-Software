@@ -90,3 +90,20 @@ value = button1.read()   # call function to read button state and store in varia
 
 [Combine Testing](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button_Combine.py) : this example demonstrates use of buttons along with other components. 
 
+
+### (6) POT
+POT class is used to read the value of onboard Potentiometer. 
+ 
+**Methods:**
+* _read_ :  to read the raw value in integer
+* _readPercentage_ :  to read the value in percentage from 0-100%
+
+Use case:
+```
+# Create an instance of the POT class to access the onboard potentiometer
+pot = POT()    
+val = pot.read()  # Read the raw value of the potentiometer
+val_percent = pot.readPercent()  # value in percentage
+
+```
+[Demo POT Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_POT.py) : checkout demo code how to read value of potentiometer of PiCoder.
