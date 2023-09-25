@@ -34,7 +34,7 @@ buz = BUZZER()   # create class instance
 buz.on() 	      # call function to turn on buzzer
 buz.off()	     # to turn off 
 ```
-[Demo Buzzer Example](): this example on Github turns Buzzer on and off in a fixed interval of time.
+[Demo Buzzer Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Buzzer.py): this example on Github turns Buzzer on and off in a fixed interval of time.
 
 
 ### (3) BUZZERTONE
