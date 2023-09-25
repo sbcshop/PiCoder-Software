@@ -72,4 +72,20 @@ relay.on() 	       # call function to turn on RELAY 2 of PiCoder
 
 [Demo Relay Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Relay.py) : this example on Github turns the relay on and off in a fixed interval of time.
 
+### (5) BUTTON
+BUTTON class is used to check button status. You will have to pass parameters as a choice of onboard Button 1, 2, 3 or 4. 
+Alternatively, you can pass the GPIO number of Pico W to which external buttons are connected on the breadboard.
+ 
+**Methods:**
+* _read_ :  to read status of respective button
+
+Use case:
+```
+ # interested to Check status of any Button, let say I want to check for BT1
+button1 = BUTTON(1)   # create class instance, by passing Button number
+value = button1.read()   # call function to read button state and store in variable
+
+```
+[Demo Button Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button.py) : checkout demo code how to use the button.
+[Combine Testing](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button_Combine.py) : this example demonstrates use of buttons along with other components. 
 
