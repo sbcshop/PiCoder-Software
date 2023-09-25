@@ -49,4 +49,4 @@ while 1:
         relay2.off()	# Turn off RELAY2
     
     print(f"BT1 = {val1}, BT2 = {val2}, BT3 = {val3}, BT4 = {val4}")
-    sleep(0.2)
+    sleep(0.2) #wait for some time
