@@ -205,3 +205,23 @@ h = sense.humidity()	# provides relative Humidity in percentage
 
 ```
 [BME280 Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_BME280.py): Code gives idea how to read temperature, pressure and humidity from BME280 of PiCoder.
+
+### (9) ULTRASONIC 
+The ULTRASONIC class is used to read the distance of an object in front of the ultrasonic sensor of PiCoder.
+
+**Methods:**
+* _read_ :  to read the distance in cm
+* _read_in_ :  to read the distance in inch
+
+Use case:
+```
+#import required module from library
+from picoder import ULTRASONIC
+
+distance = ULTRASONIC() #create instance 
+Value = distance.read() #reads distance in cm
+Value_in = distance.read_in() #reads distance in inch
+
+```
+ 
+[Ultrasonic Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_UltrasonicSensor.py) : Demo code to read distance of object in cm and inch value.
