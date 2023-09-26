@@ -14,6 +14,9 @@ LED class is used to control onboard two LEDs. You will have to pass parameters 
 
 **Use case:**
 ```
+# import required module from library
+from picoder import LED
+
 # interested to work with LED1
 Led1 = LED(1)   # create class instance, by passing LED number
 Led1.on() 	  # call function to turn on LED 1 of PiCoder
@@ -30,6 +33,9 @@ No parameters required to pass if using an onboard buzzer. Pass GPIO number if u
 
 **Use case:**
 ```
+# import required module from library
+from picoder import BUZZER
+
 buz = BUZZER()   # create class instance
 buz.on() 	      # call function to turn on buzzer
 buz.off()	     # to turn off 
@@ -46,6 +52,9 @@ BUZZERTONE class is used to control the onboard buzzer, having the facility to c
 
 **Use case:**
 ```
+# import required module from library
+from picoder import BUZZERTONE
+
 buz = BUZZERTONE()   # create class instance
 Freq = 1024          # change to see different tone
 loudness = 2000      # Higher the louder, close to 0 reduce sound intensity
@@ -65,6 +74,9 @@ Alternatively, you can pass the GPIO number of Pico W to which external Relays a
 
 Use case:
 ```
+# import required module from library
+from picoder import RELAY
+
  # interested to work with RELAY2
 relay = RELAY(2)   # create class instance, by passing RELAY number
 relay.on() 	       # call function to turn on RELAY 2 of PiCoder
@@ -81,6 +93,9 @@ Alternatively, you can pass the GPIO number of Pico W to which external buttons 
 
 Use case:
 ```
+# import required module from library
+from picoder import BUTTON
+
  # interested to Check status of any Button, let say I want to check for BT1
 button1 = BUTTON(1)   # create class instance, by passing Button number
 value = button1.read()   # call function to read button state and store in variable
@@ -100,6 +115,9 @@ POT class is used to read the value of onboard Potentiometer.
 
 Use case:
 ```
+# import required module from library
+from picoder import POT
+
 # Create an instance of the POT class to access the onboard potentiometer
 pot = POT()    
 val = pot.read()  # Read the raw value of the potentiometer
@@ -120,6 +138,9 @@ The SERVO class is used to rotate the onboard servo motor shaft to a specified a
 
 Use case:
 ```
+# import required module from library
+from picoder import SERVO
+
 # Create an instance of the SERVO class to control the servo motor
 s1 = SERVO()
 
@@ -139,31 +160,48 @@ s1.move(angle)
 [Servo_POT Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo_POT.py): The servo shaft is rotated by the POT value.
 
 ### (8) LDR 
-The SERVO class is used to rotate the onboard servo motor shaft to a specified angle.
+LDR class is used to get the reading of an LDR (Light Dependent Resistor) sensor to detect presence of Light.
  
 **Methods:**
-* _move_ : to move servo motor shaft at an angle pass from 0-180 degree.
-* _middle_ :  to move the servo motor shaft at middle position.
-* _servo_Map_ :  
-    - to change the value from one range to another, useful when converting POT value into angle.
-    - servo_Map(value, from_min, from_max, to_min, to_max)
+* _read_  :  to read the raw value in integer
+* _readPercent_ :  to read the value in percentage from 0-100%
 
 Use case:
 ```
-# Create an instance of the SERVO class to control the servo motor
-s1 = SERVO()
+# import required module from library
+from picoder import LDR
 
-# Move the servo to 100 degrees
-s1.move(100)
-
-# Read the potentiometer value as a percentage (0-100%)
-val_percent = pot.readPercent()
+# Create an instance of the POT class to access the onboard potentiometer
+ldr = LDR()   
+# Read the raw LDR value
+val = ldr.read()
     
-# map the value from percentage into angle 
-angle = s1.servo_Map(val_percent, 0, 100, 0,180)
-s1.move(angle)
+# Read the LDR value as a percentage (0-100%)
+val_percent = ldr.readPercent()
 
 ```
-[Servo Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo.py): checkout demo code for servo motor to move at certain angle.
+[LDR Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_LDR.py): Demo code to read and display LDR sensor value.
 
-[Servo_POT Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo_POT.py): The servo shaft is rotated by the POT value.
+
+### (9) BME280 
+BME280 class is used to get the value of Temperature, Pressure and Humidity from the BME280 sensor.
+ 
+**Methods:**
+* _temperature_ :  to read the temperature in degrees
+* _pressure_ :  to read the pressure in hPa
+* _humidity_ :  to read the relative humidity in %
+
+Use case:
+```
+# import required module from library
+from picoder import BME280
+
+#create instance of class
+sense = BME280()
+
+t = sense.temperature() # provides temperature in Degrees
+p = sense.pressure() 	# provides pressure in hPa
+h = sense.humidity()	# provides relative Humidity in percentage
+
+```
+[BME280 Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_BME280.py): Code gives idea how to read temperature, pressure and humidity from BME280 of PiCoder.
