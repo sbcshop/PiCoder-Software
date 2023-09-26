@@ -107,3 +107,32 @@ val_percent = pot.readPercent()  # value in percentage
 
 ```
 [Demo POT Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_POT.py) : checkout demo code how to read value of potentiometer of PiCoder.
+
+### (7) SERVO
+The SERVO class is used to rotate the onboard servo motor shaft to a specified angle.
+ 
+**Methods:**
+* _move_ : to move servo motor shaft at an angle pass from 0-180 degree.
+* _servo_Map_ :  
+    - to change the value from one range to another, useful when converting POT value into angle.
+    - servo_Map(value, from_min, from_max, to_min, to_max)
+
+Use case:
+```
+# Create an instance of the SERVO class to control the servo motor
+s1 = SERVO()
+
+# Move the servo to 100 degrees
+s1.move(100)
+
+# Read the potentiometer value as a percentage (0-100%)
+val_percent = pot.readPercent()
+    
+# map the value from percentage into angle 
+angle = s1.servo_Map(val_percent, 0, 100, 0,180)
+s1.move(angle)
+
+```
+[Servo Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo.py): checkout demo code for servo motor to move at certain angle.
+
+[Servo_POT Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo_POT.py): The servo shaft is rotated by the POT value.
