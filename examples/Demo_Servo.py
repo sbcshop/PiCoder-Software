@@ -14,6 +14,9 @@ sleep(1)
 s1.move(20)
 sleep(1)
 
+s1.middle() # move to middle position
+sleep(1)
+
 while True:
     print("Turn left ...")
     
