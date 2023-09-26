@@ -6,8 +6,8 @@ import utime			  # Import the utime module for microsecond sleep
 # Create an instance of the SERVO class to control the servo motor
 s1 = SERVO()
 
-# Move the servo to 100 degrees and wait for 1 second
-s1.move(100)
+# Move the servo to 130 degrees and wait for 1 second
+s1.move(130)
 sleep(1)
 
 # Move the servo to 20 degrees and wait for 1 second
