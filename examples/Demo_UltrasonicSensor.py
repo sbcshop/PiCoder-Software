@@ -5,7 +5,7 @@ from time import sleep
 distance = ULTRASONIC() #create instance 
 
 while 1:
-    check = distance.read() #reads distance in cm
-    check_in = distance.read_in() #reads distance in inch
-    print(f"Distance is {check} cm, and {check_in} inch ")
+    value = distance.read() #reads distance in cm
+    value_in = distance.read_in() #reads distance in inch
+    print(f"Distance is {value} cm, and {value_in} inch ")
     sleep(0.2)
