@@ -288,3 +288,27 @@ WARNING: AVOID Direct Looking at matrix when using on() method without brightnes
 [RGB LED Matrix Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py) : The code includes functions to control all LEDs at once, individual LEDs, and set specific colors and brightness levels.
 
 [RGBChaserPattern](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/RGBChaserPattern.py) : checkout pattern generation demo code.
+
+### (13) TOUCH
+The TOUCH class is to detect the coordinates of the display where the screen is touched. There are also methods to detect single or multi-touch (two-point).
+
+**Methods:**
+* _touched_ :  property to check if the screen is touched and returns a number of touches. 
+* _touches_ : property  to get coordinates of touches in a list with ID number.
+* _getXY_ :  function returns X and Y coordinates of the touch if within resolution range 320x240, else -1 for out of range or any error. Use when a single touch is detected.
+* _mgetXY_ :  function returns 4 values x1, y1, x2 and y2. Use for multi-touch.
+
+Use case:
+```
+#import required module from library
+from picoder import TOUCH
+
+# Create an instance of TOUCH
+touch = TOUCH()
+
+if touch.touched == 1:  # Check if the screen is being touched
+        x, y = touch.getXY()  # Get the X and Y coordinates of the touch, -1 for any issue
+
+```
+[Touch Detect Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_TOUCH.py) : demonstrates how to use the TOUCH module from the picoder library to detect and print touch coordinates (X, Y) when the screen is touched on console.
+
