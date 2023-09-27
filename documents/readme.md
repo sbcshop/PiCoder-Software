@@ -246,3 +246,43 @@ cardVal = rfid.read()
 ```
  
 [RFID Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RFID_module.py) : checkout example code how to read RFID card using onboard Module of PiCoder.
+
+
+### (12) LEDMATRIX
+The LEDMATRIX class contains methods to control RGB LEDs of 8X8 LED MATRIX. Both options are available to control a single LED or all at once. 
+
+**Methods:**
+* _on_ :  used to TURN ON all 64 LEDs in one go. Even you can send color and brightness value for effective control
+* _off_ :  used to TURN OFF all LEDs of matrix.
+* _pixelon_ :  used to TURN ON single RGB LED. You need to pass integer value 0-63 of LED to turn on out of 64. Here also you can decide RGB color and brightness value.
+* _pixeloff_ :  used to TURN OFF specific LEDs. So, pass the LED number as a parameter.
+* _chaser_ :  this function generates a kind of pattern which turns on and off LEDs in sequence from 0-63 and reverse.
+
+Use case:
+```
+#import required module from library
+from picoder import LEDMATRIX
+
+# Create an instance of LEDMATRIX
+rgbmatrix = LEDMATRIX()
+
+'''
+WARNING: AVOID Direct Looking at matrix when using on() method without brightness control,
+default full brightness is very HIGH may cause trouble to EYES
+'''
+rgbmatrix.on() # to Turn ON all LEDs with default white color
+rgbmatrix.off() # to Turn OFF all LEDs
+
+rgbmatrix.on(color=(200,150,0) , brightness=0.02) # with color and brightness control
+
+# to control single RGB LED
+rgbmatrix.pixelon(4) # Turn on RGB LED at position 5
+rgbmatrix.pixeloff(4) # Turn off LED at position 5
+
+rgbmatrix.pixelon(28, color=(0, 150, 0), brightness=0.8)  # Turn with color and brightness value
+rgbmatrix.pixeloff(28) # Turn off 
+
+```
+WARNING: AVOID Direct Looking at matrix when using on() method without brightness control, default full brightness is very HIGH may cause trouble to EYES
+
+[RGB Matrix Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py) : The code includes functions to control all LEDs at once, individual LEDs, and set specific colors and brightness levels.
