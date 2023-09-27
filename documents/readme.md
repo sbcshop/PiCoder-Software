@@ -225,3 +225,24 @@ Value_in = distance.read_in() #reads distance in inch
 ```
  
 [Ultrasonic Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_UltrasonicSensor.py) : Demo code to read distance of object in cm and inch value.
+
+### (10) RFID
+The RFID class is used to read 125KHz RFID cards using the onboard RFID module of PiCoder.
+
+**Methods:**
+* _read_ :   to read the RFID card value
+
+Use case:
+```
+#import required module from library
+from picoder import RFID
+
+# Create instances of RFID
+rfid = RFID()
+
+# Read the RFID card value
+cardVal = rfid.read()
+
+```
+ 
+[RFID Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RFID_module.py) : checkout example code how to read RFID card using onboard Module of PiCoder.
