@@ -310,5 +310,4 @@ if touch.touched == 1:  # Check if the screen is being touched
         x, y = touch.getXY()  # Get the X and Y coordinates of the touch, -1 for any issue
 
 ```
-[Touch Detect Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_TOUCH.py) : demonstrates how to use the TOUCH module from the picoder library to detect and print touch coordinates (X, Y) when the screen is touched on console.
-
+[Touch Detect Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_TOUCH.py) : demonstrates how to use the TOUCH module from library to detect and print touch coordinates (X, Y) when the screen is touched.
