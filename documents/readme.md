@@ -276,13 +276,15 @@ rgbmatrix.off() # to Turn OFF all LEDs
 rgbmatrix.on(color=(200,150,0) , brightness=0.02) # with color and brightness control
 
 # to control single RGB LED
-rgbmatrix.pixelon(4) # Turn on RGB LED at position 5
-rgbmatrix.pixeloff(4) # Turn off LED at position 5
+rgbmatrix.pixelon(4) # Turn ON RGB LED at position 5
+rgbmatrix.pixeloff(4) # Turn OFF LED at position 5
 
-rgbmatrix.pixelon(28, color=(0, 150, 0), brightness=0.8)  # Turn with color and brightness value
-rgbmatrix.pixeloff(28) # Turn off 
+rgbmatrix.pixelon(28, color=(0, 150, 0), brightness=0.8)  # Turn ON with color and brightness value
+rgbmatrix.pixeloff(28) # Turn OFF 
 
 ```
 WARNING: AVOID Direct Looking at matrix when using on() method without brightness control, default full brightness is very HIGH may cause trouble to EYES
 
-[RGB Matrix Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py) : The code includes functions to control all LEDs at once, individual LEDs, and set specific colors and brightness levels.
+[RGB LED Matrix Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py) : The code includes functions to control all LEDs at once, individual LEDs, and set specific colors and brightness levels.
+
+[RGBChaserPattern](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/RGBChaserPattern.py) : checkout pattern generation demo code.
