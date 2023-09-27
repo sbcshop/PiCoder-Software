@@ -206,7 +206,7 @@ h = sense.humidity()	# provides relative Humidity in percentage
 ```
 [BME280 Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_BME280.py): Code gives idea how to read temperature, pressure and humidity from BME280 of PiCoder.
 
-### (9) ULTRASONIC 
+### (10) ULTRASONIC 
 The ULTRASONIC class is used to read the distance of an object in front of the ultrasonic sensor of PiCoder.
 
 **Methods:**
@@ -226,7 +226,7 @@ Value_in = distance.read_in() #reads distance in inch
  
 [Ultrasonic Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_UltrasonicSensor.py) : Demo code to read distance of object in cm and inch value.
 
-### (10) RFID
+### (11) RFID
 The RFID class is used to read 125KHz RFID cards using the onboard RFID module of PiCoder.
 
 **Methods:**
