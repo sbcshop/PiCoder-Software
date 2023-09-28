@@ -375,3 +375,6 @@ display.draw_rectangle(0, 0, 320, 240, RGB(255, 0, 255))
 display.draw_text8x8(90, 20, 'PICO LEARNING KIT', RGB(0, 255, 0))
 
 ```
+Check below demo codes how to use methods of LCD for display,
+- [LCD Demo Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_LCD.py)
+- [Graphics Demo](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Graphics.py)
