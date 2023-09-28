@@ -94,7 +94,7 @@ Alternatively, you can pass the GPIO number of Pico W to which external buttons 
 
 |Method | Function |
 |---|---|
-|_read_ | to read status of respective button |
+|_read_ | to read status of respective button, return logic 1 when pressed else 0 |
 
 Use case:
 ```
