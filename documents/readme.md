@@ -4,7 +4,6 @@ The [picoder.py](https://github.com/sbcshop/PiCoder-Software/blob/main/picoder.p
 
 Each onboard component is represented by the following essential Class in the module. There are also several supporting classes included in the module.
 
-
 ### (1) LED
 LED class is used to control onboard two LEDs. You will have to pass parameters as a choice of LED 1 or 2. Else you can pass GPIO number of Pico W to which external LEDs are connected on the breadboard.
  
