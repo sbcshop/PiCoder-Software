@@ -111,7 +111,10 @@ ellipseDemo()
 lineDemo()
 polygonDemo()
 
-    
+while 1:
+    for i in range(320):
+        display.scroll(i) # scroll display
+        sleep(0.008)    
 
 
 
