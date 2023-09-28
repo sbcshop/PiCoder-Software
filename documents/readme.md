@@ -113,10 +113,11 @@ value = button1.read()   # call function to read button state and store in varia
 
 ### (6) POT
 POT class is used to read the value of onboard Potentiometer. 
- 
-**Methods:**
-* _read_ :  to read the raw value in integer
-* _readPercentage_ :  to read the value in percentage from 0-100%
+
+|Method | Function |
+|---|---|
+|_read_ | to read the raw value in integer |
+|_readPercentage_ | to read the value in percentage from 0-100% |
 
 Use case:
 ```
@@ -133,13 +134,12 @@ val_percent = pot.readPercent()  # value in percentage
 
 ### (7) SERVO
 The SERVO class is used to rotate the onboard servo motor shaft to a specified angle.
- 
-**Methods:**
-* _move_ : to move servo motor shaft at an angle pass from 0-180 degree.
-* _middle_ :  to move the servo motor shaft at middle position.
-* _servo_Map_ :  
-    - to change the value from one range to another, useful when converting POT value into angle.
-    - servo_Map(value, from_min, from_max, to_min, to_max)
+
+|Method | Function |
+|---|---|
+|_move_ | to move servo motor shaft at an angle pass from 0-180 degree |
+|_middle_ | to move the servo motor shaft at middle position |
+|_servo_Map_ | to change the value from one range to another, useful when converting POT value into angle |
 
 Use case:
 ```
@@ -166,10 +166,11 @@ s1.move(angle)
 
 ### (8) LDR 
 LDR class is used to get the reading of an LDR (Light Dependent Resistor) sensor to detect presence of Light.
- 
-**Methods:**
-* _read_  :  to read the raw value in integer
-* _readPercent_ :  to read the value in percentage from 0-100%
+
+|Method | Function |
+|---|---|
+|_read_ | to read the raw value in integer |
+|_readPercent_ | to read the value in percentage from 0-100% |
 
 Use case:
 ```
@@ -190,11 +191,12 @@ val_percent = ldr.readPercent()
 
 ### (9) BME280 
 BME280 class is used to get the value of Temperature, Pressure and Humidity from the BME280 sensor.
- 
-**Methods:**
-* _temperature_ :  to read the temperature in degrees
-* _pressure_ :  to read the pressure in hPa
-* _humidity_ :  to read the relative humidity in %
+
+|Method | Function |
+|---|---|
+|_temperature_ | to read the temperature in degrees |
+|_pressure_ | to read the pressure in hPa |
+|_humidity_ | to read the relative humidity in % |
 
 Use case:
 ```
@@ -214,9 +216,10 @@ h = sense.humidity()	# provides relative Humidity in percentage
 ### (10) ULTRASONIC 
 The ULTRASONIC class is used to read the distance of an object in front of the ultrasonic sensor of PiCoder.
 
-**Methods:**
-* _read_ :  to read the distance in cm
-* _read_in_ :  to read the distance in inch
+|Method | Function |
+|---|---|
+|_read_ | to read the distance in cm |
+|_read_in_ | to read the distance in inch |
 
 Use case:
 ```
@@ -234,8 +237,9 @@ Value_in = distance.read_in() #reads distance in inch
 ### (11) RFID
 The RFID class is used to read 125KHz RFID cards using the onboard RFID module of PiCoder.
 
-**Methods:**
-* _read_ :   to read the RFID card value
+|Method | Function |
+|---|---|
+|_read_ | to read the RFID card value |
 
 Use case:
 ```
@@ -256,12 +260,13 @@ cardVal = rfid.read()
 ### (12) LEDMATRIX
 The LEDMATRIX class contains methods to control RGB LEDs of 8X8 LED MATRIX. Both options are available to control a single LED or all at once. 
 
-**Methods:**
-* _on_ :  used to TURN ON all 64 LEDs in one go. Even you can send color and brightness value for effective control
-* _off_ :  used to TURN OFF all LEDs of matrix.
-* _pixelon_ :  used to TURN ON single RGB LED. You need to pass integer value 0-63 of LED to turn on out of 64. Here also you can decide RGB color and brightness value.
-* _pixeloff_ :  used to TURN OFF specific LEDs. So, pass the LED number as a parameter.
-* _chaser_ :  this function generates a kind of pattern which turns on and off LEDs in sequence from 0-63 and reverse.
+|Method | Function |
+|---|---|
+|_on_ | used to turn ON all 64 LEDs in one go, even you can send color and brightness value for effective control |
+|_off_ | used to turn OFF all LEDs of matrix |
+|_pixelon_ | used to TURN ON single RGB LED. You need to pass integer value 0-63 of LED to turn on out of 64. Here also you can decide RGB color and brightness value |
+|_pixeloff_ | used to TURN OFF specific LEDs. So, pass the LED number as a parameter. |
+|_chaser_ |  this function generates a kind of pattern which turns on and off LEDs in sequence from 0-63 and reverse. |
 
 Use case:
 ```
@@ -297,11 +302,12 @@ WARNING: AVOID Direct Looking at matrix when using on() method without brightnes
 ### (13) TOUCH
 The TOUCH class is to detect the coordinates of the display where the screen is touched. There are also methods to detect single or multi-touch (two-point).
 
-**Methods:**
-* _touched_ :  property to check if the screen is touched and returns a number of touches. 
-* _touches_ : property  to get coordinates of touches in a list with ID number.
-* _getXY_ :  function returns X and Y coordinates of the touch if within resolution range 320x240, else -1 for out of range or any error. Use when a single touch is detected.
-* _mgetXY_ :  function returns 4 values x1, y1, x2 and y2. Use for multi-touch.
+|Method | Function |
+|---|---|
+|_touched_ | property to check if the screen is touched and returns a number of touches |
+|_touches_ | property  to get coordinates of touches in a list with ID number |
+|_getXY_ | function returns X and Y coordinates of the touch if within resolution range 320x240, else -1 for out of range or any error. Use when a single touch is detected. |
+|_mgetXY_ | function returns 4 values x1, y1, x2 and y2. Use for multi-touch. |
 
 Use case:
 ```
