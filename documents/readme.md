@@ -8,9 +8,10 @@ Each onboard component is represented by the following essential Class in the mo
 ### (1) LED
 LED class is used to control onboard two LEDs. You will have to pass parameters as a choice of LED 1 or 2. Else you can pass GPIO number of Pico W to which external LEDs are connected on the breadboard.
  
-**Methods:**
-* _on_ :  this method is used to turn on LED
-* _off_ :  this method is used to turn off LED
+|Method | Function |
+|---|---|
+|_on_ | used to turn on LED |
+|_off_ | used to turn off LED |
 
 **Use case:**
 ```
@@ -27,9 +28,10 @@ Led1.on() 	  # call function to turn on LED 1 of PiCoder
 BUZZER class is used to control the onboard buzzer. Includes a straightforward way for turning on and off a buzzer with a fixed tone.
 No parameters required to pass if using an onboard buzzer. Pass GPIO number if using external buzzer.
   
-**Methods:**
-* _on_ :  to turn on Buzzer
-* _off_ :  to turn off Buzzer
+|Method | Function |
+|---|---|
+|_on_ | used to turn on Buzzer |
+|_off_ | used to turn off Buzzer |
 
 **Use case:**
 ```
@@ -45,10 +47,11 @@ buz.off()	     # to turn off
 
 ### (3) BUZZERTONE
 BUZZERTONE class is used to control the onboard buzzer, having the facility to create tones depending on Frequency of sound and you can control loudness.
-  
-**Methods:**
-* _play_ :  to turn on Buzzer, this method needs frequency and loudness value as parameters. Integer value of frequency and loudness required.
-* _stop_ :  to turn off Buzzer
+
+|Method | Function |
+|---|---|
+|_play_ | to turn on Buzzer, this method needs frequency and loudness value as parameters |
+|_stop_ | to turn off Buzzer |
 
 **Use case:**
 ```
@@ -67,10 +70,11 @@ buz.stop()	     # to turn off buzzer
 ### (4) RELAY
 RELAY class is used to control onboard two RELAY . You will have to pass parameters as a choice of RELAY 1 or 2. 
 Alternatively, you can pass the GPIO number of Pico W to which external Relays are connected on the breadboard.
- 
-**Methods:**
-* _on_ :  this method is used to turn on RELAY
-* _off_ :  this method is used to turn off RELAY
+
+|Method | Function |
+|---|---|
+|_on_ | to turn on RELAY |
+|_off_ | to turn off RELAY |
 
 Use case:
 ```
@@ -87,9 +91,10 @@ relay.on() 	       # call function to turn on RELAY 2 of PiCoder
 ### (5) BUTTON
 BUTTON class is used to check button status. You will have to pass parameters as a choice of onboard Button 1, 2, 3 or 4. 
 Alternatively, you can pass the GPIO number of Pico W to which external buttons are connected on the breadboard.
- 
-**Methods:**
-* _read_ :  to read status of respective button
+
+|Method | Function |
+|---|---|
+|_read_ | to read status of respective button |
 
 Use case:
 ```
@@ -313,3 +318,55 @@ if touch.touched == 1:  # Check if the screen is being touched
 [Touch Detect Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_TOUCH.py) : demonstrates how to use the TOUCH module from library to detect and print touch coordinates (X, Y) when the screen is touched.
 
 [Multi-Touch Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_multiTouch.py) : how to detect two point touch on screen.
+
+### (14) LCD
+The LCD class contains various methods to work with an onboard 3.2” TFT display of PiCoder. 
+
+| Method | Function |
+|---|---|
+|_backlight_on_  | to turn ON backlight of display |
+|_backlight_off_  | to turn ON backlight of display |
+|_display_on_     | to turn ON display |
+|_display_off_    | to turn OFF display |
+|_clear_          | to clear display |
+|_cleanup_        | to clean and free up resources |
+|_draw_circle_    | to draw a circle|
+|_fill_circle_    | to draw a filled circle|
+|_draw_ellipse_   | to draw a ellipse|  
+|_fill_ellipse_   | to draw a filled ellipse|
+|_draw_rectangle_ | to draw a rectangle|  
+|_fill_rectangle_ | to draw a filled rectangle|
+|_draw_polygon_   | to draw an n-sided regular polygon|
+|_fill_polygon_   | to fill n-sided regular polygon  
+|_draw_hline_     | to draw horizontal line| 
+|_draw_vline_     | to draw vertical line|  
+|_draw_line_      | to draw a line|
+|_draw_lines_     | to draw multiple lines|
+|_draw_pixel_     | to draw a single pixel|
+|_fill_hrect_     | to draw a filled rectangle (optimized for horizontal drawing)|
+|_fill_vrect_     | to draw filled rectangle (optimized for vertical drawing)
+|_draw_letter_    | to draw a letter|
+|_draw_text_      | to draw text|
+|_draw_text8x8_   | to draw text using built-in MicroPython 8x8 bit font|
+|_draw_sprite_    | to draw a sprite (optimized for horizontal drawing)|
+|_load_sprite_    | to load sprite image|
+|_draw_image_     | to draw image from flash|
+|_set_scroll_     | to set the height of the top and bottom scroll margins|
+|_scroll_         | to scroll display vertically|
+|_is_off_grid_    | to check if coordinates extend past display boundaries|
+
+**Note:** Requirement for any graphics color is 16 bit RGB565 which is achieved using method RGB(r, g, b) which returns converted 16 bit color format.
+
+Use case:
+```
+#import required module from library
+from picoder import LCD, RGB
+
+# Create an instance of LCD
+display = LCD()
+
+display.backlight_on()
+display.draw_rectangle(0, 0, 320, 240, RGB(255, 0, 255))
+display.draw_text8x8(90, 20, 'PICO LEARNING KIT', RGB(0, 255, 0))
+
+```
