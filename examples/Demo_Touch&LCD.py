@@ -16,8 +16,7 @@ sleep(2)
 
 while True:
     if touch.touched == 1:  # Check if the screen is being touched
-        x, y = touch.getXY()  # Get the X and Y coordinates of the touch, -1 for any issue
-        #points = 
+        x, y = touch.getXY()  # Get the X and Y coordinates of the touch
         print(f"x = {x} , y = {y}")  # Print the coordinates to the console
         display.fill_polygon(3, x, y, 5, RGB(20, 20, 200)) # (n-side, x, y, size, color)
     else :
