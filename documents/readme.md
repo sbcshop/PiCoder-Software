@@ -4,6 +4,24 @@ The [picoder.py](https://github.com/sbcshop/PiCoder-Software/blob/main/picoder.p
 
 Each onboard component is represented by the following essential Class in the module. There are also several supporting classes included in the module.
 
+Module Content ->
+
+- [LED](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#1-led)
+- [BUZZER](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#2-buzzer)
+- [BUZZERTONE](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#3-buzzertone)
+- [RELAY](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#4-relay)
+- [BUTTON](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#5-button)
+- [POT](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#6-pot)   
+- [SERVO](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#7-servo)
+- [LDR](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#8-ldr) 
+- [BME280](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#9-bme280)   
+- [ULTRASONIC](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#10-ultrasonic)
+- [RFID](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#11-rfid) 
+- [LEDMATRIX](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#12-ledmatrix)
+- [TOUCH](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#13-touch)
+- [RGB]() 
+- [LCD](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#15-lcd)
+
 ### (1) LED
 LED class is used to control onboard two LEDs. You will have to pass parameters as a choice of LED 1 or 2. Else you can pass GPIO number of Pico W to which external LEDs are connected on the breadboard.
  
@@ -324,7 +342,18 @@ if touch.touched == 1:  # Check if the screen is being touched
 
 [Multi-Touch Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_multiTouch.py) : how to detect two point touch on screen.
 
-### (14) LCD
+### (14) RGB
+RGB is a method inside the picoder module for converting RGB888 color to 16 bit RGB565 for LCD display.
+
+Use case:
+```
+#import module as shown below
+from picoder import RGB
+
+color = RGB(255, 200, 25) # will generate 16 bit RGB565 format
+```
+
+### (15) LCD
 The LCD class contains various methods to work with an onboard 3.2” TFT display of PiCoder. 
 
 | Method | Function |
@@ -378,3 +407,4 @@ display.draw_text8x8(90, 20, 'PICO LEARNING KIT', RGB(0, 255, 0))
 Check below demo codes how to use methods of LCD for display,
 - [LCD Demo Example](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_LCD.py)
 - [Graphics Demo](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Graphics.py)
+- [Touch & LCD Demo](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Touch%26LCD.py)
