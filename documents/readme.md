@@ -19,7 +19,7 @@ Module Content ->
 - [RFID](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#11-rfid) 
 - [LEDMATRIX](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#12-ledmatrix)
 - [TOUCH](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#13-touch)
-- [RGB]() 
+- [RGB](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#14-rgb) 
 - [LCD](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#15-lcd)
 
 ### (1) LED
