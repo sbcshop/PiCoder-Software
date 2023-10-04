@@ -283,6 +283,7 @@ The LEDMATRIX class contains methods to control RGB LEDs of 8X8 LED MATRIX. Both
 |_off_ | used to turn OFF all LEDs of matrix |
 |_pixelon_ | used to TURN ON single RGB LED. You need to pass integer value 0-63 of LED to turn on out of 64. Here also you can decide RGB color and brightness value |
 |_pixeloff_ | used to TURN OFF specific LEDs. So, pass the LED number as a parameter. |
+|_readpixel_ | used to get current RGB color value of corresponding pixel |
 |_chaser_ |  this function generates a kind of pattern which turns on and off LEDs in sequence from 0-63 and reverse. |
 
 Use case:
@@ -307,7 +308,9 @@ rgbmatrix.pixelon(4) # Turn ON RGB LED at position 5
 rgbmatrix.pixeloff(4) # Turn OFF LED at position 5
 
 rgbmatrix.pixelon(28, color=(0, 150, 0), brightness=0.8)  # Turn ON with color and brightness value
-rgbmatrix.pixeloff(28) # Turn OFF 
+r, g, b = rgbmatrix.readpixel(28) # to read RGB color value of specific RGB LED.
+print(f"RGB color : {r}, {g}, {b}")
+rgbmatrix.pixeloff(28) # Turn OFF
 
 ```
 WARNING: AVOID Direct Looking at matrix when using on() method without brightness control, default full brightness is very HIGH may cause trouble to EYES
