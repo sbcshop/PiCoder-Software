@@ -12,7 +12,7 @@ PiCoder is an all-in-one STEM learning kit that allows students to work directly
 Features the most well-known Raspberry Pi Pico, which enjoys strong community support.The most popular programming languages, Micropython, Ciruitpython, and Arduino, are supported across platforms.
 
 Because the lesson for the PiCoder kit is mostly based on Micropython, it is advised that you understand the very fundamentals of Python.
-<!---
+
 ## Pinout 
 <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_pinout.jpg">
 
@@ -32,7 +32,7 @@ Because the lesson for the PiCoder kit is mostly based on Micropython, it is adv
 14)8x8 RGB LED Matrix
 15)BME280 Sensor
 16)3.2” Touch LCD
---->
+
 
 ## Getting Started with PiCoder  
 ### 1. How to install boot Firmware in Pico W of PiCoder kit
@@ -59,9 +59,39 @@ or to download the latest firmware file from the official site, [visit here](htt
 ### 2. Running First Program in PiCoder
 - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS of PC/laptop and install into your system.
 
-- Once done start **Thonny IDE application**, connect PiCoder kit with laptop/PC using micro usb cable
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/thonny_IDE.png" width="463" height="388">
+
+- Once done start **Thonny IDE application**, connect PiCoder kit with laptop/PC using micro usb cable.
+- Download complete PiCoder software github, so you can try example demo codes provided here.
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/download_picoder_github.png" width="342" height="239">
   
-    
+- Open example using in Thonny IDE. Select device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/img1_boardselect.png">
+  
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/img2_boardselect.png"> 
+
+- If everything ok then you will get success message like as shown in below image, 
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/Picoder_pico_connected.png"> 
+  
+- With Demo LED Blink code open in IDE, click on Green Play Button or F5 to run script code
+  
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/run_demo_script.png">
+  
+  
+### Example Codes
+Save whatever example code file you want to try as main.py to Pico/ Pico W of PiCoder as shown in above step, also make sure you added [picoder.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/picoder.py) lib file with default name. In [example](https://github.com/sbcshop/PiCoder-Software/tree/main/examples) folder you will find demo example script code to test onboard components of PiCoder like,
+
+- [Buzzer](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_BuzzerTone.py) : code to test onboard Buzzer
+- [RGB Matrix](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py) : Run this code to check various control and color production on 8x8 RGB MATRIX
+- [Ultrasonic Sensor](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_UltrasonicSensor.py) : code to measure distance of object
+- [Servo and POT](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo_POT.py) : rotate servo motor using POT
+- [Combine Operation](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button_Combine.py) : press button to see LED blink and Relay ON/OFF.
+- [RGB LED Chaser](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/RGBChaserPattern.py) : Demo code to develop some LED chaser color pattern 
+- [Touch Display](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Touch%26LCD.py) : Play with Touch Display 
+- [and Many more...](https://github.com/sbcshop/PiCoder-Software/tree/main/examples)
+   
 
 Now you are ready to try out your own codes and build awesome projects with PiCoder, **_Happy Learning!_**
 
