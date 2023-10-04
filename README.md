@@ -60,13 +60,13 @@ or to download the latest firmware file from the official site, [visit here](htt
 - If everything ok then you will get success message like as shown in below image, 
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/Picoder_pico_connected.png">
 
-- Before trying any example script make sure you have _**picoder.py**_ lib file present in PiCoder. If not, proceed to step 3 to move the file within PiCoder's Pico.
+- Before trying any example script make sure you have _**picoder.py**_ lib file present in PiCoder. If not, proceed to [step 3](https://github.com/sbcshop/PiCoder-Software/tree/main#3-how-to-move-script-codes-or-any-files-to-picoder) to move the file within PiCoder's Pico.
   
 - With Demo LED Blink code open in IDE, click on Green Play Button or F5 to run script code. 
   
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/run_demo_script.png">
 
-- This is solely useful for testing code before moving it to PiCoder. However, in order to run the script without an IDE, you must first move it to PiCoder. To accomplish this, proceed to step 3 below.
+- This is solely useful for testing code before moving it to PiCoder. However, in order to run the script without an IDE, you must first move it to PiCoder. To accomplish this, proceed to [step 3](https://github.com/sbcshop/PiCoder-Software/tree/main#3-how-to-move-script-codes-or-any-files-to-picoder) below.
   
 ### 3. How to Move Script Codes or Any Files to PiCoder
 
