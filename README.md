@@ -12,30 +12,14 @@ PiCoder is an all-in-one STEM learning kit that allows students to work directly
 Features the most well-known Raspberry Pi Pico, which enjoys strong community support.The most popular programming languages, Micropython, Ciruitpython, and Arduino, are supported across platforms.
 
 Because the lesson for the PiCoder kit is mostly based on Micropython, it is advised that you understand the very fundamentals of Python.
+This GitHub provides details and step-by-step instructions how to use PiCoder kit. 
 
 ## Pinout 
 <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_pinout.jpg">
-
-1)Power Supply 
-2)RPi Pico W
-3)Pico HAT
-4)Breadboard
-5)Relays 
-6)Servo
-7)POT
-8)LEDs
-9)Buttons
-10)Buzzer
-11)RFID Module
-12)Ultrasonic Sensor
-13)LDR Sensor
-14)8x8 RGB LED Matrix
-15)BME280 Sensor
-16)3.2” Touch LCD
-
+<img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/pinout_text.png" width="693" height="161">
 
 ## Getting Started with PiCoder  
-### 1. How to install boot Firmware in Pico W of PiCoder kit
+### 1. How to Install Boot Firmware in Pico W of PiCoder kit
 
 - Mostly, Picoder will be provided with firmware pre-installed, so you can skip this step if firmware is already present and directly jump start programming by following the below Step 2.
 - How to know whether firmware is already present in your PiCoder: for this, just connect your PiCoder to your laptop, and if no extra device is detected, that means your PiCoder has it.
@@ -62,23 +46,33 @@ or to download the latest firmware file from the official site, [visit here](htt
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/thonny_IDE.png" width="463" height="388">
 
 - Once done start **Thonny IDE application**, connect PiCoder kit with laptop/PC using micro usb cable.
-- Download complete PiCoder software github, so you can try example demo codes provided here.
+  
+- Download complete PiCoder software github and extract, so you can try example demo codes which is provided.
 
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/download_picoder_github.png" width="342" height="239">
   
-- Open example using in Thonny IDE. Select device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
+- Open any one example in Thonny IDE. Select device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
 
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/img1_boardselect.png">
   
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/img2_boardselect.png"> 
 
 - If everything ok then you will get success message like as shown in below image, 
-  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/Picoder_pico_connected.png"> 
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/Picoder_pico_connected.png">
+
+- Before trying any example script make sure you have _**picoder.py**_ lib file present in PiCoder. If not, proceed to step 3 to move the file within PiCoder's Pico.
   
-- With Demo LED Blink code open in IDE, click on Green Play Button or F5 to run script code
+- With Demo LED Blink code open in IDE, click on Green Play Button or F5 to run script code. 
   
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/run_demo_script.png">
+
+- This is solely useful for testing code before moving it to PiCoder. However, in order to run the script without an IDE, you must first move it to PiCoder. To accomplish this, proceed to step 3 below.
   
+### 3. How to Move Script Codes or Any Files to PiCoder
+
+- Check that the file view is selected in Thonny IDE; if not, go to View > Files. This makes the computer and Pico folders visible.
+  
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/fileview_step.gif">
   
 ### Example Codes
 Save whatever example code file you want to try as main.py to Pico/ Pico W of PiCoder as shown in above step, also make sure you added [picoder.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/picoder.py) lib file with default name. In [example](https://github.com/sbcshop/PiCoder-Software/tree/main/examples) folder you will find demo example script code to test onboard components of PiCoder like,
