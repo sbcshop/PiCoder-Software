@@ -308,8 +308,11 @@ rgbmatrix.pixelon(4) # Turn ON RGB LED at position 5
 rgbmatrix.pixeloff(4) # Turn OFF LED at position 5
 
 rgbmatrix.pixelon(28, color=(0, 150, 0), brightness=0.8)  # Turn ON with color and brightness value
-r, g, b = rgbmatrix.readpixel(28) # to read RGB color value of specific RGB LED.
+
+# to read RGB color value of specific RGB LED. Here you might get variation in read value due to brightness, for exact value set brightness=1
+r, g, b = rgbmatrix.readpixel(28) 
 print(f"RGB color : {r}, {g}, {b}")
+
 rgbmatrix.pixeloff(28) # Turn OFF
 
 ```
