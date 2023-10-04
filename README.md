@@ -71,8 +71,18 @@ or to download the latest firmware file from the official site, [visit here](htt
 ### 3. How to Move Script Codes or Any Files to PiCoder
 
 - Check that the file view is selected in Thonny IDE; if not, go to View > Files. This makes the computer and Pico folders visible.
-  
+
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/fileview_step.gif">
+
+- Open code script you want to move, click File > Save a Copy > Select Raspberry. Now name of code script must be main.py and select yes to overwrite previous.
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/filetransfer.gif">
+
+- While moving lib file don't rename, maintain original name picoder.py, alternative file transfer method if renaming is not necessary->
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/otherway_filetransfer.gif">
+
+  
   
 ### Example Codes
 Save whatever example code file you want to try as main.py to Pico/ Pico W of PiCoder as shown in above step, also make sure you added [picoder.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/picoder.py) lib file with default name. In [example](https://github.com/sbcshop/PiCoder-Software/tree/main/examples) folder you will find demo example script code to test onboard components of PiCoder like,
