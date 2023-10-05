@@ -86,7 +86,7 @@ or to download the latest firmware file from the official site, [visit here](htt
   
   
 ### Example Codes
-Save whatever example code file you want to try as main.py to Pico/ Pico W of PiCoder as shown in above step, also make sure you added [picoder.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/picoder.py) lib file with default name. In [example](https://github.com/sbcshop/PiCoder-Software/tree/main/examples) folder you will find demo example script code to test onboard components of PiCoder like,
+Save whatever example code file you want to try as _**main.py**_ to Pico/ Pico W of PiCoder as shown in above step, also make sure you added **[picoder.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/picoder.py)** lib file with default name. In [example](https://github.com/sbcshop/PiCoder-Software/tree/main/examples) folder you will find demo example script code to test onboard components of PiCoder like,
 
 - [Buzzer](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_BuzzerTone.py) : code to test onboard Buzzer
 - [RGB Matrix](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py) : Run this code to check various control and color production on 8x8 RGB MATRIX
@@ -97,6 +97,7 @@ Save whatever example code file you want to try as main.py to Pico/ Pico W of Pi
 - [Touch Display](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Touch%26LCD.py) : Play with Touch Display 
 - [and Many more...](https://github.com/sbcshop/PiCoder-Software/tree/main/examples)
    
+Detail Explanation of **picoder.py** Lib file is available **[here](https://github.com/sbcshop/PiCoder-Software/tree/main/documents)**.
 
 Now you are ready to try out your own codes and build awesome projects with PiCoder, **_Happy Learning!_**
 
