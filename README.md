@@ -38,6 +38,7 @@ This GitHub provides details and step-by-step instructions how to use PiCoder ki
 or to download the latest firmware file from the official site, [visit here](https://micropython.org/download/rp2-pico-w/)     
      
 - Drag and drop the MicroPython UF2 - ["PiCoder_firmware.uf2"](https://github.com/sbcshop/PiCoder-Software/blob/main/PiCoder_firmware.uf2) file provided in this github onto the RPI-RP2 volume. Your Pico W will reboot. You are now running MicroPython on PiCoder.
+  <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/firmware_installation.gif" />
 
 
 ### 2. Running First Program in PiCoder
