@@ -94,7 +94,7 @@ Checkout below lessons for each components and corresponding example links:
 **Objective:** In this chapter we will try to blink onboard LED using Pico W of PiCoder. There are two leds available.
 
 **Hardware Connection:**
-- Make sure you have put the jumper shown below. 
+- Make sure you have put the jumper shown below, 
 
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_LED_connect.png">
 
@@ -103,14 +103,14 @@ Checkout below lessons for each components and corresponding example links:
   | GP14 | LED1 |
   | GP28 | LED2 |
 
-- Software code:
-  - Library => **_picoder.py_**
-  - Class  => **LED**
+- Software code will use:
+  - Library => [**_picoder.py_**](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/picoder.py)
+  - Class  => [**LED**](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#1-led)
   - Methods => _on, off_
 
 - Example code: [Demo_LED.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_LED.py)
 
-- Open code in Thonny IDE, select board with proper COM port.
+- Open code in Thonny IDE, select Raspberry Pi Pico board with proper COM port.
 
   <img src = "https://github.com/sbcshop/PiCoder-Software/blob/main/images/interface_window.png">
 
@@ -118,40 +118,128 @@ Checkout below lessons for each components and corresponding example links:
 - For standalone save this Demo_LED.py code into PiCoder's Pico as **main.py**. Now, whenever power up you will see LED starts blinking.
 
 
-### Lesson 2 :
-**Objective:** 
+### Lesson 2 : How to play Buzzer of PiCoder
+**Objective:** In this chapter we will learn to play onboard Buzzer of PiCoder.
 
 **Hardware Connection:**
-- Make sure you have put the jumper shown below. 
+- Make sure you have put the jumper shown below, 
 
-  <img src="">
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_buzzer_connect.png">
 
-  | Pico W | LED|
+  | Pico W | BUZZER |
   |---|---|
-  | GP14 | LED1 |
-  | GP28 | LED2 |
+  | GP22 | BUZ |
 
-- Software code:
+- Software code will use:
   - Library => **_picoder.py_**
-  - Class  => **LED**
+  - Class  => **BUZZER**
   - Methods => _on, off_
 
-- Example code: [Demo_LED.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_LED.py)
+- Example code: [Demo_Buzzer.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Buzzer.py)
 
 - Open code in Thonny IDE, select board with proper COM port.
 - Click Green play button to run directly and make sure to transfer **picoder.py** library in PiCoder's Pico.
-- For standalone save this Demo_LED.py code into PiCoder's Pico as **main.py**. Now, whenever power up you will see LED starts blinking.
+- For standalone save this **Demo_Buzzer.py** code into PiCoder's Pico as **main.py**. Now, whenever you power up board you will see buzzer beeps in regular interval.
+
+Related Examples:
+ - [Buzzer Tone](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_BuzzerTone.py) : Create sound by changing frequency and intensity 
+ 
+
+### Lesson 3 : Read value of POT 
+**Objective:** Here we will learn about various methods for reading the value of the PiCoder's onboard potentiometer.
+
+**Hardware Connection:**
+- Make sure you have put the jumper shown below, 
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_POT_connect.png">
+
+  | Pico W | POT |
+  |---|---|
+  | GP27 | ADC1 |
+
+- Software code will use:
+  - Library => **_picoder.py_**
+  - Class  => **POT**
+  - Methods => _readPercent, readRaw_
+
+- Example code: [Demo_POT.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_POT.py)
+
+### Lesson 4 : How to rotate Servo motor  
+**Objective:** This lesson gives idea how you can easily rotate servo motor shaft with some angle 0-180 degree.
+
+**Hardware Connection:**
+- Make sure you have put the jumper shown below, 
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_servo_connect.png">
+
+  | Pico W | SERVO |
+  |---|---|
+  | GP15 | SIG |
+
+- Software code will use:
+  - Library => **_picoder.py_**
+  - Class  => **SERVO**
+  - Methods => _move, servo_Map_
+
+- Example code: [Demo_Servo.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo.py)
+- Checkout also example to control Servo using POT : [Demo_Servo_POT.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo_POT.py)
+
+### Lesson 5 : How check status of Button  
+**Objective:** We will learn how to read status of Button if pressed or Not.
+
+**Hardware Connection:**
+- Make sure you have put the jumper shown below, 
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_buttons_connect.png">
+
+  | Pico W | BUTTON |
+  |---|---|
+  | GP0 | BT1 |
+  | GP4 | BT2 |
+  | GP6 | BT3 |
+  | GP19 | BT4 |
+
+- Software code will use:
+  - Library => **_picoder.py_**
+  - Class  => **BUTTON**
+  - Methods => _read_
+
+- Example code: [Demo_Button.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button.py)
+- Turn on and off LED using Button example : [Demo_Button_Combine.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button_Combine.py)
+
+### Lesson 6 : How to read LDR sensor for Light detection 
+**Objective:** We will learn how to read onboard LDR sensor value of PiCoder.
+
+**Hardware Connection:**
+- Make sure you have put the jumper shown below, 
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_ldr_connect.png">
+
+  | Pico W | LDR |
+  |---|---|
+  | GP26 | ADC0 |
+ 
+
+- Software code will use:
+  - Library => **_picoder.py_**
+  - Class  => **LDR**
+  - Methods => _read, readPercent_
+
+- Example code: [Demo_LDR.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_LDR.py)
 
 
-- [Buzzer](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_BuzzerTone.py) : code to test onboard Buzzer
+
+
+
+
+<!---
 - [RGB Matrix](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py) : Run this code to check various control and color production on 8x8 RGB MATRIX
 - [Ultrasonic Sensor](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_UltrasonicSensor.py) : code to measure distance of object
-- [Servo and POT](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo_POT.py) : rotate servo motor using POT
-- [Combine Operation](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button_Combine.py) : press button to see LED blink and Relay ON/OFF.
 - [RGB LED Chaser](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/RGBChaserPattern.py) : Demo code to develop some LED chaser color pattern 
 - [Touch Display](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Touch%26LCD.py) : Play with Touch Display 
 - [and Many more...](https://github.com/sbcshop/PiCoder-Software/tree/main/examples)
-   
+--->
+
 Detail Explanation of **picoder.py** Lib file is available **[here](https://github.com/sbcshop/PiCoder-Software/tree/main/documents)**.
 
 Now you are ready to try out your own codes and build awesome projects with PiCoder, **_Happy Learning!_**
