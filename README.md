@@ -163,6 +163,8 @@ Related Examples:
   - Methods => _readPercent, readRaw_
 
 - Example code: [Demo_POT.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_POT.py)
+- Run code in Thonny IDE, and rotate POT to see change in value presented on shell terminal
+  
 
 ### Lesson 4 : How to rotate Servo motor  
 **Objective:** This lesson gives idea how you can easily rotate servo motor shaft with some angle 0-180 degree.
@@ -183,6 +185,7 @@ Related Examples:
 
 - Example code: [Demo_Servo.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo.py)
 - Checkout also example to control Servo using POT : [Demo_Servo_POT.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo_POT.py)
+
 
 ### Lesson 5 : How check status of Button  
 **Objective:** We will learn how to read status of Button if pressed or Not.
@@ -205,6 +208,7 @@ Related Examples:
   - Methods => _read_
 
 - Example code: [Demo_Button.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button.py)
+- Open and Run code in Thonny IDE, press button to see status change.
 - Turn on and off LED using Button example : [Demo_Button_Combine.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button_Combine.py)
 
 ### Lesson 6 : How to read LDR sensor for Light detection 
@@ -219,13 +223,71 @@ Related Examples:
   |---|---|
   | GP26 | ADC0 |
  
-
 - Software code will use:
   - Library => **_picoder.py_**
   - Class  => **LDR**
   - Methods => _read, readPercent_
 
 - Example code: [Demo_LDR.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_LDR.py)
+- Open and run code in Thonny IDE, change room light condition to see variation in LDR value 
+
+### Lesson 7 :  How to read BME280 sensor of PiCoder
+**Objective:** This lesson guides how to use BME280 for getting Temperature, pressure and relative humidity.
+
+**Hardware Connection:**
+- Make sure you have put the jumper shown below, 
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_bme280_connect.png">
+
+  | Pico W | BME280 |
+  |---|---|
+  | GP20 | SDA |
+  | GP21 | SCL |
+ 
+- Software code will use:
+  - Library => **_picoder.py_**
+  - Class  => **BME280**
+  - Methods => _temperature, pressure, humidity_
+
+- Example code: []()
+- Open and run code in Thonny IDE, you will get current room temperature, pressure and relative humidity value in terminal
+
+
+### Lesson 8 : How to use Ultrasonic Sensor of PiCoder 
+**Objective:** Here you will learn to know distance of object using Ultrasonic sensor 
+
+**Hardware Connection:**
+- Make sure you have put the jumper shown below,
+ 
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_ultrasonic_connect.png">
+  
+  
+### Lesson 9 :  Working with RFID Module of PiCoder
+**Objective:** This lesson demonstrate how to scan and read RFID Card value using onboard RFID module of PiCoder.
+
+**Hardware Connection:**
+- Make sure you have put the jumper shown below,
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_rfid_connect.png">
+  
+
+### Lesson 10 :  Create amazing visuals with 8x8 LED MATRIX
+**Objective:** Learn to generate colourful LED patterns on 8x8 LED MATRIX 
+
+**Hardware Connection:**
+- Make sure you have put the jumper shown below,
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_ledmatrix_connect.png">
+
+### Lesson 11 :  Working with 3.2" Touch LCD of PiCoder
+**Objective:** This tutorial guides ways to use 3.2" Touch LCD to create Interactive Visuals.
+
+**Hardware Connection:**
+- Make sure you have put the jumper shown below,
+  
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_display_connect.png">
+ 
+
 
 
 
