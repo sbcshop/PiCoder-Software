@@ -249,58 +249,105 @@ Related Examples:
   - Class  => **BME280**
   - Methods => _temperature, pressure, humidity_
 
-- Example code: []()
+- Example code: [Demo_BME280.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_BME280.py)
 - Open and run code in Thonny IDE, you will get current room temperature, pressure and relative humidity value in terminal
 
 
 ### Lesson 8 : How to use Ultrasonic Sensor of PiCoder 
-**Objective:** Here you will learn to know distance of object using Ultrasonic sensor 
+**Objective:** Here you will learn to know distance of object using Ultrasonic sensor. You can get value either in cm or inch.
 
 **Hardware Connection:**
 - Make sure you have put the jumper shown below,
  
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_ultrasonic_connect.png">
+
+  | Pico W | ULTRASONIC SENSOR |
+  |---|---|
+  | GP17 | ECHO |
+  | GP16 | TRIG |
   
+- Software code will use:
+  - Library => **_picoder.py_**
+  - Class  => **ULTRASONIC**
+  - Methods => _read, read_in_
+
+- Example code: [Demo_UltrasonicSensor.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_UltrasonicSensor.py)
+- Open and run code in Thonny IDE, move some object infront of Ultrasonic sensor to get distance value of object.
+
   
 ### Lesson 9 :  Working with RFID Module of PiCoder
-**Objective:** This lesson demonstrate how to scan and read RFID Card value using onboard RFID module of PiCoder.
+**Objective:** This lesson demonstrates how to scan and read 125KHz RFID Card value using onboard RFID module of PiCoder.
 
 **Hardware Connection:**
 - Make sure you have put the jumper shown below,
 
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_rfid_connect.png">
+
+  | Pico W | RFID |
+  |---|---|
+  | GP5 | RFID_TX |
   
+- Software code will use:
+  - Library => **_picoder.py_**
+  - Class  => **RFID**
+  - Methods => _read_
+
+- Example code: [Demo_RFID_module.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RFID_module.py)
+- Open and run code in Thonny IDE. Now bring any RFID card around module to read it.
+- Scan status is indicated by LED, audio alert issued using Buzzer and RFID card value printed on terminal
 
 ### Lesson 10 :  Create amazing visuals with 8x8 LED MATRIX
-**Objective:** Learn to generate colourful LED patterns on 8x8 LED MATRIX 
+**Objective:** Learn to generate colourful LED patterns on 8x8 LED MATRIX. 
 
 **Hardware Connection:**
 - Make sure you have put the jumper shown below,
 
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_ledmatrix_connect.png">
 
+  | Pico W | 8X8 LED MATRIX |
+  |---|---|
+  | GP18 | RGB|
+  
+- Software code will use:
+  - Library => **_picoder.py_**
+  - Class  => **LEDMATRIX**
+  - Methods => _on, off, pixelon, pixeloff, chaser_
+
+- Example code: [Demo_RGBLEDMatrix.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py)
+- Open and run code in Thonny IDE to see various colour production and individual LED control
+- Checkout this example how create patterns : [RGBChaserPattern.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/RGBChaserPattern.py)
+
+
 ### Lesson 11 :  Working with 3.2" Touch LCD of PiCoder
-**Objective:** This tutorial guides ways to use 3.2" Touch LCD to create Interactive Visuals.
+**Objective:** This tutorial guides how to use 3.2" Touch LCD to create Interactive Visuals, generate graphics and see working of capacitive touch.
 
 **Hardware Connection:**
 - Make sure you have put the jumper shown below,
   
   <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_display_connect.png">
- 
 
-
-
-
-
-
-
-<!---
-- [RGB Matrix](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py) : Run this code to check various control and color production on 8x8 RGB MATRIX
-- [Ultrasonic Sensor](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_UltrasonicSensor.py) : code to measure distance of object
-- [RGB LED Chaser](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/RGBChaserPattern.py) : Demo code to develop some LED chaser color pattern 
-- [Touch Display](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Touch%26LCD.py) : Play with Touch Display 
-- [and Many more...](https://github.com/sbcshop/PiCoder-Software/tree/main/examples)
---->
+  | Pico W | 3.2 Touch LCD |
+  |---|---|
+  | GP13 | BL |
+  | GP12 | RST |
+  | GP11 | DIN |
+  | GP8 | D/C |
+  | GP10 | CLK |
+  | GP9 | CS |
+  | GP2 | SDA |
+  | GP3 | SCL |
+  
+- Software code will use:
+  - Library => **_picoder.py_**
+  - Class  => **LCD, TOUCH, RGB**
+  - property => _touches, touched_
+  - Methods => _getXY, draw_circle, fill_circle, clear, [more](https://github.com/sbcshop/PiCoder-Software/tree/main/documents#15-lcd)_
+    
+- Example code:
+    - [Demo_LCD.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_LCD.py) : Demo how to present button response on display
+    - [Demo_Graphics.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Graphics.py) - creates and display graphics on screen
+    - [Demo_TOUCH.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_TOUCH.py): Demo how to read touch co-ordinates 
+    - [Demo_Touch&LCD.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Touch%26LCD.py): Touch and Display combine operation
 
 Detail Explanation of **picoder.py** Lib file is available **[here](https://github.com/sbcshop/PiCoder-Software/tree/main/documents)**.
 
