@@ -90,7 +90,58 @@ Save whatever example code file you want to try as _**main.py**_ to Pico/ Pico W
 
 Checkout below lessons for each components and corresponding example links:
 
-### Lesson 1 : 
+### Lesson 1 : How to Blink LED
+**Objective:** In this chapter we will try to blink onboard LED using Pico W of PiCoder. There are two leds available.
+
+**Hardware Connection:**
+- Make sure you have put the jumper shown below. 
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_LED_connect.png">
+
+  | Pico W | LED|
+  |---|---|
+  | GP14 | LED1 |
+  | GP28 | LED2 |
+
+- Software code:
+  - Library => **_picoder.py_**
+  - Class  => **LED**
+  - Methods => _on, off_
+
+- Example code: [Demo_LED.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_LED.py)
+
+- Open code in Thonny IDE, select board with proper COM port.
+
+  <img src = "https://github.com/sbcshop/PiCoder-Software/blob/main/images/interface_window.png">
+
+- Click Green play button to run directly and make sure to transfer **picoder.py** library in PiCoder's Pico.
+- For standalone save this Demo_LED.py code into PiCoder's Pico as **main.py**. Now, whenever power up you will see LED starts blinking.
+
+
+### Lesson 2 :
+**Objective:** 
+
+**Hardware Connection:**
+- Make sure you have put the jumper shown below. 
+
+  <img src="">
+
+  | Pico W | LED|
+  |---|---|
+  | GP14 | LED1 |
+  | GP28 | LED2 |
+
+- Software code:
+  - Library => **_picoder.py_**
+  - Class  => **LED**
+  - Methods => _on, off_
+
+- Example code: [Demo_LED.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_LED.py)
+
+- Open code in Thonny IDE, select board with proper COM port.
+- Click Green play button to run directly and make sure to transfer **picoder.py** library in PiCoder's Pico.
+- For standalone save this Demo_LED.py code into PiCoder's Pico as **main.py**. Now, whenever power up you will see LED starts blinking.
+
 
 - [Buzzer](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_BuzzerTone.py) : code to test onboard Buzzer
 - [RGB Matrix](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py) : Run this code to check various control and color production on 8x8 RGB MATRIX
