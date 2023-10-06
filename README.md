@@ -85,8 +85,12 @@ or to download the latest firmware file from the official site, [visit here](htt
 
   
   
-### Example Codes
-Save whatever example code file you want to try as _**main.py**_ to Pico/ Pico W of PiCoder as shown in above step, also make sure you added **[picoder.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/picoder.py)** lib file with default name. In [example](https://github.com/sbcshop/PiCoder-Software/tree/main/examples) folder you will find demo example script code to test onboard components of PiCoder like,
+## Lessons
+Save whatever example code file you want to try as _**main.py**_ to Pico/ Pico W of PiCoder as shown in above steps, also make sure you added **[picoder.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/picoder.py)** lib file with default name. In [example](https://github.com/sbcshop/PiCoder-Software/tree/main/examples) folder you will find demo example script code to test onboard components of PiCoder. 
+
+Checkout below lessons for each components and corresponding example links:
+
+### Lesson 1 : 
 
 - [Buzzer](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_BuzzerTone.py) : code to test onboard Buzzer
 - [RGB Matrix](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py) : Run this code to check various control and color production on 8x8 RGB MATRIX
