@@ -315,7 +315,7 @@ Related Examples:
 
 - Example code: [Demo_RGBLEDMatrix.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_RGBLEDMatrix.py)
 - Open and run code in Thonny IDE to see various colour production and individual LED control
-- Checkout this example how create patterns : [RGBChaserPattern.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/RGBChaserPattern.py)
+- Checkout this example how to create patterns : [RGBChaserPattern.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/RGBChaserPattern.py)
 
 
 ### Lesson 11 :  Working with 3.2" Touch LCD of PiCoder
@@ -345,9 +345,9 @@ Related Examples:
     
 - Example code:
     - [Demo_LCD.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_LCD.py) : Demo how to present button response on display
-    - [Demo_Graphics.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Graphics.py) - creates and display graphics on screen
-    - [Demo_TOUCH.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_TOUCH.py): Demo how to read touch co-ordinates 
-    - [Demo_Touch&LCD.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Touch%26LCD.py): Touch and Display combine operation
+    - [Demo_Graphics.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Graphics.py) : creates and display graphics on screen
+    - [Demo_TOUCH.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_TOUCH.py) : Demo how to read touch co-ordinates 
+    - [Demo_Touch&LCD.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Touch%26LCD.py) : Touch and Display combine operation
 
 Detail Explanation of **picoder.py** Lib file is available **[here](https://github.com/sbcshop/PiCoder-Software/tree/main/documents)**.
 
