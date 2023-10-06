@@ -302,7 +302,7 @@ Related Examples:
 **Hardware Connection:**
 - Make sure you have put the jumper shown below,
 
-  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_ledmatrix_connect.png">
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_ledmatrix_connect.png" width="309" height="246">
 
   | Pico W | 8X8 LED MATRIX |
   |---|---|
@@ -324,7 +324,7 @@ Related Examples:
 **Hardware Connection:**
 - Make sure you have put the jumper shown below,
   
-  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_display_connect.png">
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_display_connect.png" width="416" height="271">
 
   | Pico W | 3.2 Touch LCD |
   |---|---|
