@@ -172,7 +172,7 @@ Related Examples:
 **Hardware Connection:**
 - Make sure you have put the jumper shown below, 
 
-  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_servo_connect.png">
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_servo_connect.png" width="130" height="239">
 
   | Pico W | SERVO |
   |---|---|
@@ -259,7 +259,7 @@ Related Examples:
 **Hardware Connection:**
 - Make sure you have put the jumper shown below,
  
-  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_ultrasonic_connect.png">
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_ultrasonic_connect.png" width="350" height="181">
 
   | Pico W | ULTRASONIC SENSOR |
   |---|---|
@@ -281,7 +281,7 @@ Related Examples:
 **Hardware Connection:**
 - Make sure you have put the jumper shown below,
 
-  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_rfid_connect.png">
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_rfid_connect.png" width="372" height="227">
 
   | Pico W | RFID |
   |---|---|
