@@ -349,6 +349,18 @@ Related Examples:
     - [Demo_TOUCH.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_TOUCH.py) : Demo how to read touch co-ordinates 
     - [Demo_Touch&LCD.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Touch%26LCD.py) : Touch and Display combine operation
 
+### Lesson 12 :  Display Image on PiCoder
+**Objective:** Learn to display image file on PiCoder's screen.
+- Follow same connection steps as shown in lesson 11
+- Download [sample images](https://github.com/sbcshop/PiCoder-Software/tree/main/examples/Sample%20images) or if you want to convert your images then checkout guide to convert image file into raw image [here](https://github.com/sbcshop/PiCoder-Software/blob/main/documents/Step%20guide%20to%20convert%20img%20into%20raw%20file.pdf).
+- Transfer image file to Pico of PiCoder and try below example code.
+
+  <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/img_transfer.gif">
+
+- Example code: [Demo_imageDisplay.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_imageDisplay.py)
+
+
+
 Detail Explanation of **picoder.py** Lib file is available **[here](https://github.com/sbcshop/PiCoder-Software/tree/main/documents)**.
 
 Now you are ready to try out your own codes and build awesome projects with PiCoder, **_Happy Learning!_**
