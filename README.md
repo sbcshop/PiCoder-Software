@@ -14,6 +14,29 @@ Features the most well-known Raspberry Pi Pico, which enjoys strong community su
 Because the lesson for the PiCoder kit is mostly based on Micropython, it is advised that you understand the very fundamentals of Python.
 This GitHub provides details and step-by-step instructions how to use PiCoder kit. 
 
+### 📑 Table of Contents
+1. [Pinout](https://github.com/sbcshop/PiCoder-Software/tree/main#pinout)
+2. [Getting Started with PiCoder ](https://github.com/sbcshop/MicroFlex_MCU_Software/edit/main/MicroFlex%20with%20Arduino%20IDE/readme.md#-running-examples)
+    * [How to Install Boot Firmware in Pico W of PiCoder kit](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#1-how-to-install-boot-firmware-in-pico-w-of-picoder-kit)
+    * [Running First Program in PiCoder](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#2-running-first-program-in-picoder)
+    * [How to Move Script Codes or Any Files to PiCoder](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#3-how-to-move-script-codes-or-any-files-to-picoder)
+3. [Lessons](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lessons)
+    * [Lesson 1 : How to Blink LED](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-1--how-to-blink-led)
+    * [Lesson 2 : How to Play Buzzer of PiCoder](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-2--how-to-play-buzzer-of-picoder)
+    * [Lesson 3 : Read Value of POT](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-3--read-value-of-pot)
+    * [Lesson 4 : How to Rotate Servo Motor](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-4--how-to-rotate-servo-motor)
+    * [Lesson 5 : How to Check Status of Button](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-5--how-check-status-of-button)
+    * [Lesson 6 : How to Read LDR Sensor for Light Detection ](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-6--how-to-read-ldr-sensor-for-light-detection)
+    * [Lesson 7 : How to Read BME280 Sensor of PiCoder](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-7---how-to-read-bme280-sensor-of-picoder)
+    * [Lesson 8 : How to use Ultrasonic Sensor of PiCoder](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-8--how-to-use-ultrasonic-sensor-of-picoder)
+    * [Lesson 9 : Working with RFID Module of PiCoder](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-9---working-with-rfid-module-of-picoder)
+    * [Lesson 10 : Create Amazing Visuals with 8x8 LED MATRIX](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-10---create-amazing-visuals-with-8x8-led-matrix)
+    * [Lesson 11 : Working with 3.2" Touch LCD of PiCoder](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-11---working-with-32-touch-lcd-of-picoder)
+    * [Lesson 12 : Display Image on PiCoder](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#lesson-12---display-image-on-picoder)
+ 4. [Resources](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#resources)
+ 5. [Related HAT Products](https://github.com/sbcshop/PiCoder-Software/tree/main?tab=readme-ov-file#related-hat-products)
+
+
 ## Pinout 
 <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/picoder_pinout.jpg">
 <img src="https://github.com/sbcshop/PiCoder-Software/blob/main/images/pinout_text.png" width="693" height="161">
@@ -187,7 +210,7 @@ Related Examples:
 - Checkout also example to control Servo using POT : [Demo_Servo_POT.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Servo_POT.py)
 
 
-### Lesson 5 : How check status of Button  
+### Lesson 5 : How to Check Status of Button  
 **Objective:** We will learn how to read status of Button if pressed or Not.
 
 **Hardware Connection:**
@@ -211,7 +234,7 @@ Related Examples:
 - Open and Run code in Thonny IDE, press button to see status change.
 - Turn on and off LED using Button example : [Demo_Button_Combine.py](https://github.com/sbcshop/PiCoder-Software/blob/main/examples/Demo_Button_Combine.py)
 
-### Lesson 6 : How to read LDR sensor for Light detection 
+### Lesson 6 : How to Read LDR Sensor for Light Detection 
 **Objective:** We will learn how to read onboard LDR sensor value of PiCoder.
 
 **Hardware Connection:**
